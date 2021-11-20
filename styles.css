@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /*overflow: hidden;*/
+}
+.main-container {
+  /*height: 100vh;*/
+  background: url('https://res.cloudinary.com/dfkn1kzs0/image/upload/v1588506071/bg-desktop_rfy0wb.svg');
+  background-color: hsl(257, 40%, 49%);
+  background-size: cover;
+  background-position: center;
+  /*display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  text-align:center;
+  padding: 20px;*/
+}
+.container-wrap {
+  border: 1px solid transparent;
+  max-width: 1250px;
+  margin: auto;
+}
+.header {
+  margin: 35px 0 60px 0px;
+  /*text-align: left;
+    
+    margin-left: 5%;*/
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  /*border: 1px solid green;*/
+  
+}
+.land-img {
+  /*border: 1px solid red;*/
+  /*responsive*/
+  max-width: 99%;
+  height: auto;
+  /* */
+  /*centerized*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.land-img > img {
+  max-width: 100%;
+  /*this is the only way to make image responsive inside the flexbox*/
+  margin: auto;
+  display: block;
+}
+.land-info {
+  width: 49%;
+  height: auto;
+  color: white;
+  /*border: 1px solid black;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 40px 0 0 20px;
+}
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 1.2;
+}
+.desc {
+  margin-top:22px ;
+  font-size: 18px;
+  line-height: 1.3;
+}
+.register-button {
+    font-size: 20px;
+    padding:9px 13px;
+    background-color: white;
+    width: 220px;
+    border-radius: 30px;
+    color: #674BAF;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 8px 17px -8px black;
+    cursor: pointer;
+    border: 3px solid white;
+}
+.register-button:hover{
+    color: white;
+    background: rgba(103,75,175,0.9);
+}
+.social-icons {
+    color: white;
+    margin:10px 0px;
+    cursor: pointer;
+    /*border:1px solid red;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+    margin-top:20px;   
+
+}
+.social-icons >i{
+  font-size: 18px;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius:50%;
+  margin-right: 10px;
+}
+
+.cont-footer {
+  margin: 0px;
+  padding: 2rem 4rem;
+  text-align: center;
+}
+.cont-footer p {
+  color: hsl(0, 0%, 100%);
+  display: block;
+}
+.cont-footer a {
+  color: hsl(312, 79%, 62%);
+}
+.cont-footer a:hover {
+  color: hsl(277, 64%, 31%);
+}
+
+/*@media screen and (max-width: 1439px) {
+  
+}*/
+@media screen and (max-width: 1146px) {
+  .land-info {
+    width: 49%;
+  
+    margin: 20px 0 0 20px;
+  }
+  .title{
+    font-size: clamp(1.6rem,3vw,2.8rem);
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 920px) {
+  .land-info {
+    width: 80%;
+    margin: 10px 0 0 5px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .main-section {
+    flex-direction: column;
+  }
+  .land-info {
+    width: 85%;
+    text-align: center;
+    margin:20px  auto;
+  }
+  .register-button {
+    width: 200px;
+    padding:2px;
+    margin:auto;
+    margin-top:20px;
+  }
+  .social-icons {
+    justify-content: center;
+    margin-top: 50px;
+  }
+}
+
+
