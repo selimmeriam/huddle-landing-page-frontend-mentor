@@ -144,7 +144,7 @@ body {
     margin: 20px 0 0 20px;
   }
   .title {
-    font-size: clamp(1.6rem, 3vw, 2.8rem);
+    font-size: clamp(1.4rem, 2.8vw, 2.8rem);
     line-height: 1.5;
   }
 }
@@ -155,7 +155,7 @@ body {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 765px) {
   .main-section {
     flex-direction: column;
   }
