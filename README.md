@@ -1,4 +1,4 @@
- Frontend Mentor - Huddle Landing Page With a Single Introductory Section Solution
+# Frontend Mentor - Huddle Landing Page With a Single Introductory Section Solution
  
 This is a solution to the [Huddle Landing Page With a Single Introductory Section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
