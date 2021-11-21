@@ -65,7 +65,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 45px;
-  line-height: 1;
+  line-height: 1.2;
   margin:0px;
 }
 .desc {
@@ -132,7 +132,7 @@ body {
   }
   .title {
     font-size: clamp(1.4rem, 2.8vw, 2.8rem);
-    line-height: 1.5;
+    line-height: 1.2;
   }
 }
 @media screen and (max-width: 920px) {
@@ -164,5 +164,11 @@ body {
   .social-icons {
     justify-content: center;
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body{
+    border:1px solid red;
   }
 }
